@@ -1,3 +1,5 @@
+# test6 iac scan gcp 
+
 data "google_compute_zones" "zones" {}
 
 resource "google_compute_instance" "server" {
